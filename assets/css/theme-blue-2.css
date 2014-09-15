@@ -412,6 +412,7 @@ hr.page-divider.single {
 .row.faq .tab-content {
   border: solid 1px #435469;
   background-color: #fdfdfd;
+  padding-bottom: 162px;
 }
 @media (min-width: 768px) {
   .row.faq .tab-content:before {
