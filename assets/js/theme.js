@@ -216,8 +216,8 @@ var theme = function () {
         initCountDown: function () {
             // Change the following variables to change what it's counting down to.
             var year = 2014;
-            var day = 25;
-            var month = 10;
+            var day = 01;
+            var month = 11;
 
             var austDay = new Date(year, month-1, day);
             $('#defaultCountdown').countdown({until: austDay});
@@ -294,7 +294,7 @@ var theme = function () {
                 var mapOptions = {
                     scrollwheel: false,
                     zoom: 12,
-                    center: new google.maps.LatLng(40.9807648, 28.9866516)
+                    center: new google.maps.LatLng(37.875738, -122.258720)
                 };
                 map = new google.maps.Map(document.getElementById('map-canvas'),
                     mapOptions);
