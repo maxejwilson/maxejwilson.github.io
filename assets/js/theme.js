@@ -216,8 +216,8 @@ var theme = function () {
         initCountDown: function () {
             // Change the following variables to change what it's counting down to.
             var year = 2014;
-            var day = 25;
-            var month = 10;
+            var day = 1;
+            var month = 11;
 
             var austDay = new Date(year, month-1, day);
             $('#defaultCountdown').countdown({until: austDay});
