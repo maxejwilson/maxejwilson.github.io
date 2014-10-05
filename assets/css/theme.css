@@ -263,6 +263,29 @@ body.boxed {
     width: 100%; height: 100%;
     background: transparent url("../img/overlay.png") 50% 0 repeat;
 }
+
+.wide .page-section.image2,
+.boxed .page-section.image2 > .container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-attachment: fixed;
+    background-image: url('../img/preview/bitcoin-network.jpg');
+    background-size: cover !important;
+    background-position: 50% 0 !important;
+    background-repeat: no-repeat;
+}
+.wide .page-section.image2 > .container,
+.boxed .page-section.image2 {
+    position: relative;
+}
+.wide .page-section.image2:before,
+.boxed .page-section.image2 > .container:before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    width: 100%; height: 100%;
+    background: transparent url("../img/overlay.png") 50% 0 repeat;
+}
 .page-section.background-img-slider {position: relative;}
 .wide .page-section.background-img-slider,
 .boxed .page-section.background-img-slider > .container {
