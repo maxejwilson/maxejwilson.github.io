@@ -1,27 +1,11 @@
-.sponsors-thumb {
-	background-color: rgba(255,255,255,0.6);
-	padding: 4px;
-	margin: 4px;
-}
+
 .col-sm-2 .caption h3 {
 	font-size: 16px;
 }
 .col-sm-1 .caption h3 {
 	font-size: 13px;
 }
-.sponsors-thumb .caption {
-	padding: 0px;
-	text-align: center;
-}
 
-.sponsors-thumb img {
-	max-height: 125px;
-	width: auto;
-}
-
-.sponsors-thumb h3 {
-	margin-top: 10px;
-}
 
 .sponsors-section ul {
     text-align: center;
@@ -92,7 +76,6 @@
     max-height: 80px;
     max-width: 100%;
 }
-
 
 .sponsors-section li {
     /* background-color: rgba(255,255,255,0.4); */
