@@ -13,6 +13,17 @@
     overflow: hide;
 }
 
+.sponsors-section .partners {
+    width: 45%;
+    padding: 10px 10px;
+    margin: 10px;
+}
+
+.sponsors-section .partners img {
+    max-width: 100%;
+}
+    
+
 .sponsors-section .tier1 {
     width: 100%;
     padding: 10px 10px;
