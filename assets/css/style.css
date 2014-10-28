@@ -1,10 +1,10 @@
 img#baylogo{
 	max-height: 90px;
 }
-
-#filepicker_dialog{
-	max-height: 50%;
+div#filepicker_dialog_container {
+	z-index: 100000 !important;
 }
+
 /*img.shrink #baylogo{
 	max-width: 260px;
 }
