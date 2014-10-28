@@ -593,7 +593,7 @@ ga('send', 'pageview');
                 <!--Removed class btn-theme-transparent from button below-->
                 <center><a class="btn btn-theme btn-theme-xl" href="https://docs.google.com/forms/d/1Z5y8WymDEz-cyN1gLfERs23cyYicj0LowHuWlTowx-E/viewform" data-animation="flipInY" data-animation-delay="400">Click this button to register!</a></center>
                 <br><br>
-                <center><a class="btn btn-theme btn-theme-xl" id="resume-upload" href="#" data-animation="flipInY" data-animation-delay="400">Click here to upload resume</a></center>
+                <center><a class="btn btn-theme btn-theme-xl" id="resume-upload" href="" data-animation="flipInY" data-animation-delay="400">Click to upload resume</a></center>
             </div>
         </section>
         <!-- / REGISTER -->
@@ -791,7 +791,8 @@ ga('send', 'pageview');
 <!--script src="assets/plugins/jquery.cookie.js"></script>
 <script src="assets/js/theme-config.js"></script-->
 <!--<![endif]-->
-
+<script type="text/javascript"
+ src="//api.filepicker.io/v1/filepicker.js"></script>
 <script type="text/javascript">
     jQuery(document).ready(function () {
         theme.init();
@@ -828,7 +829,14 @@ ga('send', 'pageview');
     });
 
     jQuery('#resume-upload').click(function(){
-        alert('this fucking works idiot')
+        //alert('this fucking works idiot')
+        filepicker.setKey("AAXe5PDhcQ0uwbpVe9UHmz");
+        filepicker.pickAndStore(
+            {extensions: ['.pdf', '.docx', '.doc']},
+            {},
+            function(InkBlobs){
+                console.log(JSON.stringify(InkBlobs));
+        });
     })
 
 </script>
